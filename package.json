@@ -1,0 +1,20 @@
+{
+  "name": "cryptocurrency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deployprivate": "npx hardhat run scripts/deploy.ts --network test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.13.0"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.2"
+  }
+}
